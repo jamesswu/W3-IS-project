@@ -1,0 +1,92 @@
+.content {
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(175, 175, 175); 
+    /*background-color: white; */
+    width: 1366px;
+    height: 90%;
+    border-radius: 1em;
+}
+
+.get_started {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 35%;
+    width: 100%;
+    background-color: #005CAC;
+    border-radius: 1em 0em 0em 1em;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+
+.get_started img {
+    margin-top: 30%;
+}
+
+.get_started h2 {
+    
+    font-size: 250%;
+    margin-top: 15%; 
+    margin-bottom: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.get_started p {
+    width: 60%;
+    font-family: 'karla', sans-serif;
+}
+/* registraction form */
+.form_register {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 65%;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+}
+.form_register h2 {
+    color: #005CAC;
+    margin-top: 10%;
+    font-size: 250%;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.social_media_signup {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social_media_signup img {
+    width: 15%;
+}
+
+.form_register p {
+    margin-top: 5%;
+    font-size: 100%;
+}
+.form_register form {
+    width: 45%;
+}
+
+.form_register button {
+	background-color: #005CAC;
+	color: white;
+	width: 80%;
+	padding: 12px 20px;
+	margin: 12px 0px;
+	border: none;
+	border-radius: 1em;
+	cursor: pointer;
+}
+
+.form_register button:hover {
+	opacity: 0.9;
+  }
+
+
